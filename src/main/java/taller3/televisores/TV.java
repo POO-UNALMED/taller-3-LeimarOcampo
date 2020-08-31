@@ -43,10 +43,10 @@ public class TV {
 	public void setControl (Control control) {
 		 this.control = control;
 	}
-	public void setNumTV (int k) {
+	public static void setNumTV (int k) {
 		numTV = k;
 	}
-	public int getNumTv() {
+	public static int getNumTv() {
 		return numTV;
 	}
 	public void turnOn () {
