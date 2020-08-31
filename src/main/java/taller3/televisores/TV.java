@@ -59,22 +59,22 @@ public class TV {
 		return this.estado;
 	}
 	public void canalUp () {
-		if ((this.estado = true) && (this.canal < 120)) {
+		if ((this.estado == true) && (this.canal < 120)) {
 			this.canal++;
 		}
 	}
 	public void canalDown () {
-		if ((this.estado = true) && (this.canal > 1)) {
+		if ((this.estado == true) && (this.canal > 1)) {
 			this.canal--;
 		}
 	}
 	public void volumenUp () {
-		if ((this.estado = true) && (this.volumen < 7)) {
+		if ((this.estado == true) && (this.volumen < 7)) {
 			this.volumen++;
 		}
 	}
 	public void volumenDown () {
-		if ((this.estado = true) && (this.volumen > 1)) {
+		if ((this.estado == true) && (this.volumen > 1)) {
 			this.volumen--;
 		}
 	}
