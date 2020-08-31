@@ -11,6 +11,7 @@ public class TV {
 	public TV(Marca x, boolean y) {
 		marca = x;
 		estado = y;
+		numTV++;
 	}
 	public int getCanal() {
 		return this.canal;
@@ -42,8 +43,11 @@ public class TV {
 	public void setControl (Control control) {
 		 this.control = control;
 	}
-	public void setNumTV () {
-		numTV++;
+	public void setNumTV (int k) {
+		numTV = k;
+	}
+	public int getNumTv() {
+		return numTV;
 	}
 	public void turnOn () {
 		this.estado = true;
