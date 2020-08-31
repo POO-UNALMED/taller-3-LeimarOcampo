@@ -27,7 +27,7 @@ public class TV {
 	public int getPrecio() {
 		return this.precio;
 	}
-	public void sePrecio(int k) {
+	public void setPrecio(int k) {
 		this.precio = k;
 	}
 	public Marca getMarca (){
