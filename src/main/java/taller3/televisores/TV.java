@@ -42,7 +42,7 @@ public class TV {
 	public void setControl (Control control) {
 		 this.control = control;
 	}
-	public void setnumTV () {
+	public void setNumTV () {
 		numTV++;
 	}
 	public void turnOn () {

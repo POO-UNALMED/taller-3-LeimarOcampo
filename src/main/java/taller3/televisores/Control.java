@@ -23,7 +23,7 @@ public class Control {
 	public void setCanal(int k) {
 		tv.setCanal(k);
 	}
-	public TV getTV () {
+	public TV getTv () {
 		return this.tv;
 	}
 	public void setTv (TV tv) {
