@@ -17,13 +17,17 @@ public class TV {
 		return this.canal;
 	}
 	public void setCanal(int k) {
-		this.canal = k;
+		if ((this.estado == true) && (k >= 0) && (k <= 0)) {
+			this.canal = k;
+		}
 	}
 	public int getVolumen() {
 		return this.volumen;
 	}
 	public void setVolumen(int k) {
-		this.volumen = k;
+		if((this.estado == true) && (k >= 0) && (k <= 7)) {
+			this.volumen = k;
+		}
 	}
 	public int getPrecio() {
 		return this.precio;
@@ -57,9 +61,6 @@ public class TV {
 	}
 	public boolean getEstado () {
 		return this.estado;
-	}
-	public void setEstado(boolean k) {
-		this.estado = k;
 	}
 	public void canalUp () {
 		if ((this.estado == true) && (this.canal < 120)) {
